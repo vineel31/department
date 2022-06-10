@@ -1,0 +1,8 @@
+{
+    "employeeData": {
+        "getAll": "https://reactdemoo.herokuapp.com/api/v1/department",
+        "post": "https://reactdemoo.herokuapp.com/api/v1/department",
+        "put": "https://reactdemoo.herokuapp.com/api/v1/department",
+        "delete": "https://reactdemoo.herokuapp.com/api/v1/department"
+    }
+}
