@@ -72,7 +72,7 @@ export default function App() {
   const [department_NAME, setdepartment_NAME] 	= React.useState("");
   const [manager_ID, setmanager_ID] 			= React.useState("");
   const [location_ID, setlocation_ID] 			= React.useState("");
-  const handleClose = () => {setOpen(false);};
+  //const handleClose = () => {setOpen(false);};
   const [viewId, setViewId] = React.useState("")
 
  
@@ -191,6 +191,14 @@ export default function App() {
               //handleClose()
             })
     }
+    const handleClose = () => {
+      setOpen(false);
+      setdepartment_ID("")
+      setdepartment_NAME("")
+      setmanager_ID("")
+      setlocation_ID("")
+
+  };
 
   return (
     <div className="App">
@@ -228,6 +236,7 @@ export default function App() {
         </DialogActions>
   </Dialog>
 
+  
       
     </div>
   );
